@@ -1,0 +1,13 @@
+/*NÃO ESQUECER DE FAZER O NEGÓCIO DOS 62,5%*/
+
+:root {
+    --fonte-principal: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: var();
+    font-size: ;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    color: var();
+}
