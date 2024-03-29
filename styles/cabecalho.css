@@ -1,0 +1,38 @@
+.cabecalho__barra-status {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9rem 1.6rem;
+    background-color: var(--cor-de-fundo-branca);
+}
+
+.cabecalho__hora {
+    color: var(cor-itens-status-bar);
+}
+
+.cabecalho__icones {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.perfil {
+    display: flex;
+    padding: 3.2rem 12.1rem 2.2rem 1.6rem;
+    gap: 1.6rem;
+}/*Ver o bacground que deve estar errado*/
+
+.perfil__img {
+    border-radius: 50%;
+    height: 5.7rem;
+}
+
+.perfil__titulo {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 3.52rem;
+}
+
+.perfil__texto {
+    color: var(--cor-fonte-cinza-claro);
+    font-size: 1.4rem;
+    line-height: 2.24rem;
+}

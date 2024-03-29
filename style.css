@@ -1,13 +1,28 @@
-/*NÃO ESQUECER DE FAZER O NEGÓCIO DOS 62,5%*/
+@import url(styles/cabecalho.css);
+@import url(styles/agenda.css);
 
 :root {
     --fonte-principal: "Montserrat", sans-serif;
+    --cor-de-fundo-body: linear-gradient(165.96deg, #F8F4FF 0%, #EFF0F4 100%);
+    --cor-fonte-principal: #464646;
+    --cor-de-fundo-branca: #FFFFFF;
+    --cor-itens-status-bar: #333333;
+    --cor-fonte-cinza-claro: #A3A3A3;
+    --cor-borda-botao: #ECECEC;
+    --cor-fundo-elipse: #F6F6F6;
+    --botao-laranja: #FFB050;
+    --botao-azul: #4894FF;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 body {
-    background-color: var();
-    font-size: ;
+    background: var(--cor-de-fundo-body);
+    font-size: 1.4rem;
     font-weight: 400;
     font-family: var(--fonte-principal);
-    color: var();
+    color: var(--cor-fonte-principal);
+    min-height: 100vh;
 }
