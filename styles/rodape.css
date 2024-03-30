@@ -1,0 +1,38 @@
+.rodape {
+    background-color: var(--cor-de-fundo-branca);
+    box-shadow: 0 -.4rem .8rem 0 var(--cor-sombra);
+    border-radius: 1.2rem 1.2rem 0 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.rodape__lista {
+    display: flex;
+    padding: .8rem 1.4rem;
+    gap: 3.6rem;
+    justify-content: space-between;
+}
+
+.rodape__lista-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lista-item-opacidade {
+    opacity: 0.3;
+}
+
+.item__link {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 1.92rem;
+    color: var(--cor-fonte-principal);
+}
+
+.consultas {
+    color: var(--botao-azul);
+}
