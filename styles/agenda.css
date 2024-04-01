@@ -6,6 +6,7 @@
     margin: 0 1.6rem 1.6rem 1.6rem;
     background-color: var(--cor-de-fundo-branca);
     border-radius: 0.8rem;
+    min-width: 32.8rem;
 }
 
 .agenda__data {
@@ -118,4 +119,16 @@ color: var(--cor-fonte-cinza-claro);
     padding: 1.3rem 0;
     border-radius: 0.8rem;
     box-shadow: 0 .4rem 1.6rem 0 #4894FF80;
+}
+
+.consultas-do-dia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .consultas-do-dia {
+        justify-content: flex-start;
+    } 
 }

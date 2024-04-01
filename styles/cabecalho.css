@@ -36,3 +36,9 @@
     font-size: 1.4rem;
     line-height: 2.24rem;
 }
+
+@media screen and (min-width: 1440px) {
+    .cabecalho__barra-status {
+        display: none;
+    }
+}

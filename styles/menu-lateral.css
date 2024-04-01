@@ -1,0 +1,19 @@
+.menu__lateral {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .menu__lateral {
+        display: block;
+        background-color: var(--cor-de-fundo-branca);
+        height: 100vh;
+        padding: 2.4rem .2rem;
+        border-right: .2rem solid var(--cor-borda-botao);
+    }
+    
+    .rodape__lista {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -82,3 +82,9 @@
     line-height: 1.92rem;
     font-weight: 500;
 }
+
+@media screen and ( min-width: 1440px) {
+    .container__botoes {
+        display: none;
+    }
+}

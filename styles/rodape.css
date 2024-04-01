@@ -4,6 +4,7 @@
     border-radius: 1.2rem 1.2rem 0 0;
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
 .rodape__lista {
@@ -35,4 +36,10 @@
 
 .consultas {
     color: var(--botao-azul);
+}
+
+@media screen and (min-width: 1440px) {
+    .rodape {
+        display: none;
+    }
 }
