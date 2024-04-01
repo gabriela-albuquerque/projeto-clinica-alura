@@ -1,0 +1,84 @@
+.botao {
+    /* display: inline-block; */
+    display: flex;
+    background-color: var(--botao-azul);
+    width: 5.6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+    position: fixed;
+    right: 1.7rem;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 0 .4rem 1.6rem 0 #4894FF80;
+}
+
+.botao__icone {
+    /* display: inline-block; */
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.tela-fundo-escuro{
+    transition: opacity .6s ease;
+}
+
+.cadastrar-consulta:hover ~ .hover {
+    display: flex;
+}
+
+.cadastrar-consulta:hover ~ .tela-fundo-escuro {
+    opacity: 0.8;
+}
+
+.tela-fundo-escuro {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 3;
+    opacity: 0;
+}
+
+.cadastrar-consulta {
+    bottom: 7.4rem;
+    z-index: 4;
+}
+
+.nova-consulta-video, .label-video {
+    z-index: 4;
+    display: none;
+}
+
+.nova-consulta-video {
+    bottom: 14.6rem;
+}
+
+.label-video{
+    bottom: 16.3rem;
+}
+
+.nova-consulta-presencial, .label-presencial {
+    z-index: 4;
+    display: none;
+}
+
+.nova-consulta-presencial {
+    bottom: 21.8rem;
+}
+
+.label-presencial {
+    bottom: 23.4rem;
+}
+
+.label-video, .label-presencial {
+    background-color: var(--cor-de-fundo-branca);
+    border-radius: 1.2rem;
+    position: fixed;
+    right: 8.9rem;
+    padding: .2rem .8rem;
+    size: 1.2rem;
+    line-height: 1.92rem;
+    font-weight: 500;
+}

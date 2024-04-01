@@ -1,6 +1,7 @@
 @import url(styles/cabecalho.css);
 @import url(styles/agenda.css);
 @import url(styles/rodape.css);
+@import url(styles/botoes.css);
 
 :root {
     --fonte-principal: "Montserrat", sans-serif;
@@ -28,4 +29,5 @@ body {
     font-family: var(--fonte-principal);
     color: var(--cor-fonte-principal);
     min-height: 100vh;
+    padding-bottom: 6.3rem;
 }

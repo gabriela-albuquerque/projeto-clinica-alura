@@ -102,6 +102,7 @@ color: var(--cor-fonte-cinza-claro);
 
 .card__endereco {
     padding: 0.8rem 1.6rem 1.6rem 0;
+    
 }
 
 .endereco__texto{
@@ -115,5 +116,6 @@ color: var(--cor-fonte-cinza-claro);
     font-weight: 500;
     line-height: 2.24rem;
     padding: 1.3rem 0;
-    border-radius: 0.8rem;  
+    border-radius: 0.8rem;
+    box-shadow: 0 .4rem 1.6rem 0 #4894FF80;
 }
