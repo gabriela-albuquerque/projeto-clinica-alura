@@ -27,7 +27,7 @@
 }
 
 .cadastrar-consulta:hover ~ .tela-fundo-escuro {
-    opacity: 0.8;
+  display: block;
 }
 
 .tela-fundo-escuro {
@@ -38,7 +38,8 @@
     right: 0;
     background-color: black;
     z-index: 3;
-    opacity: 0;
+    opacity: .8;
+    display: none;
 }
 
 .cadastrar-consulta {

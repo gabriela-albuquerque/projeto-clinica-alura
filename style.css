@@ -3,6 +3,7 @@
 @import url(styles/rodape.css);
 @import url(styles/botoes.css);
 @import url(styles/menu-lateral.css);
+@import url(styles/formulario.css);
 
 :root {
     --fonte-principal: "Montserrat", sans-serif;
@@ -17,6 +18,11 @@
     --botao-laranja: #FFB050;
     --botao-azul: #4894FF;
     --cor-sombra: #0000000F;
+    --cor-sombra-botao: #4894FF29;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 html {

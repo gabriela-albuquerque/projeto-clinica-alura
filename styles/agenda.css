@@ -132,3 +132,9 @@ color: var(--cor-fonte-cinza-claro);
         justify-content: flex-start;
     } 
 }
+
+@media screen and (min-width: 1440px) {
+    .conteudo-a-direita {
+        padding-left: 14rem;
+    }
+}
